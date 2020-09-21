@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@ts-lernarepo/*": ["*/src/index"] //子包映射到对应目录
+    },
+    "target": "ESNEXT",  
+    "module": "ESNEXT",  
+    "declaration": true,
+    "sourceMap": true,
+    "strict": false,
+    "esModuleInterop": true 
+  }
+}
